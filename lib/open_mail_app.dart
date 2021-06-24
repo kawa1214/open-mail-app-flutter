@@ -5,7 +5,7 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:funwork/configs/AppColor.dart';
+import 'package:funwork/configs/app_color.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// Provides ability to query device for installed email apps and open those
