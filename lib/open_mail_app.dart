@@ -5,7 +5,6 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:funwork/configs/app_color.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 /// Provides ability to query device for installed email apps and open those
@@ -180,7 +179,7 @@ class MailAppPickerDialog extends StatelessWidget {
                           style: TextStyle(fontSize: 16.0),
                         ),
                       ),
-                      (mailApps.length-1 != index) ? Divider(color: AppColor.gray[200]) : Container(),
+                      (mailApps.length-1 != index) ? Divider(color: Color(0xFFCAD5D6)) : Container(),
                     ],
                   ),
                   onTap: () {
